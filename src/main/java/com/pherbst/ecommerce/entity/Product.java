@@ -13,7 +13,6 @@ import java.util.Date;
 @Data  //Lombok's annotation to reduce boilerplate code (getters & setters)
 public class Product {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
